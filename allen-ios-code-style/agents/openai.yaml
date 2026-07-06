@@ -1,0 +1,5 @@
+interface:
+  display_name: "Allen iOS Code Style"
+  short_description: "Organize iOS Swift code in Allen style"
+  default_prompt: "Use $allen-ios-code-style to organize this Swift file. Keep the main type body to properties/init/lifecycle only, move private methods into responsibility-based extensions with //MARK sections, split long setup/layout functions into phase helpers, and add Traditional Chinese intent comments for types, enum cases, model properties, functions, and complex blocks."
+  brand_color: "#006B4F"
