@@ -1,12 +1,12 @@
-# Allen iOS Code Style
+# Allen iOS Code Style Skill
 
-A practical iOS Swift code style playbook for AI-assisted refactoring, readable structure, and production review.
+A Codex skill for AI-assisted iOS Swift refactoring, readable code organization, and production review.
 
 This repository is not a general Swift style guide.
 
 It focuses on one specific problem:
 
-> When AI helps organize or refactor Swift code, the result should still look like production code that a human iOS engineer can review, maintain, and ship.
+> When Codex or another AI assistant helps organize Swift code, the result should still look like production code that a human iOS engineer can review, maintain, and ship.
 
 ## Why This Exists
 
@@ -21,7 +21,7 @@ In real iOS projects, maintainability depends on more than syntax:
 - comments should explain intent, not repeat syntax
 - refactoring should stay scoped and reviewable
 
-This playbook gives AI a repeatable structure for cleaning up Swift code without turning a cleanup task into a rewrite.
+This skill gives Codex a repeatable structure for cleaning up Swift code without turning a cleanup task into a rewrite.
 
 ## Philosophy
 
@@ -35,7 +35,7 @@ This playbook gives AI a repeatable structure for cleaning up Swift code without
 
 ## When To Use
 
-Use this style when working on iOS Swift code and the task is about:
+Use this skill when working on iOS Swift code and the task is about:
 
 - organizing a large Swift file
 - lightly refactoring a UIKit or SwiftUI screen
@@ -187,7 +187,7 @@ Avoid:
 ## Example Prompt
 
 ```text
-Use Allen iOS Code Style.
+Use the Allen iOS Code Style skill.
 
 Refactor this Swift file for readability.
 Preserve behavior.
@@ -216,7 +216,7 @@ Before finishing:
 
 ## Status
 
-This is the first public version of the playbook.
+This is the first public version of the skill.
 
 It currently focuses on iOS Swift code organization and AI-assisted refactoring style.
 
